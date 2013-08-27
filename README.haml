@@ -7,7 +7,23 @@
   %a.anchor{:href => "#warning", :name => "warning"}>
     %span.octicon.octicon-link
   Warning
-%p Running this script will attempt to convert (and subsequently overwrite) pre-existing *.html and *.haml files within the directory.
+%p Running this script will attempt to convert (and subsequently overwrite) pre-existing *.html and *.haml files within an entire directory.
+%p ALL OF THEM.
+%p ALL THE .MD
+%p AND ALL THE .HTML
+%p SIMULTANEOUSLY
+%p IN ALL THE FOLDERS
+%p IN THAT DIRECTORY TREE
+%p The creator is not responsible for your directory getting fubar'd, use version control, hack responsibly
+%h2
+  %a.anchor{:href => "#howto", :name => "howto"}>
+    %span.octicon.octicon-link
+  Howto
+%p
+  %code git clone git@github.com:cin210/markhaml.git
+  %code cd markhaml
+  %code ruby markhaml /path/to/markdown/folder
+%p Insert your own PERSONAL APPLICATION TOKEN from github for more or less unlimited md =&gt; html conversions
 %h2
   %a.anchor{:href => "#dependencies", :name => "dependencies"}>
     %span.octicon.octicon-link
@@ -15,10 +31,4 @@
 %p
   %code gem install html2haml
   %code gem install octokit
-%h2
-  %a.anchor{:href => "#notes", :name => "notes"}>
-    %span.octicon.octicon-link
-  Notes
-%p
-  This was a one-off script used to recursively convert an entire directory of markdown files to HAML
-  Perfect conversions are not gaurunteed.
+  Be sure to check permissions of the folder used.

@@ -22,14 +22,19 @@ The creator is not responsible for your directory getting fubar'd, use version c
 
 ##Howto
 ```git clone git@github.com:cin210/markhaml.git```
+
 ```cd markhaml ```
+
 ```ruby markhaml [/path/to/markdown/folder]```
+
 YOU PROBABLY DON'T WANT TO PASS ROOT TO THIS METHOD
 
-Insert your own PERSONAL APPLICATION TOKEN from github for more or less unlimited md => html conversions
+Note: get your own PERSONAL APPLICATION TOKEN from github for more  than 50 html conversions
 
 ##Dependencies
 ```gem install html2haml```
+
 ```gem install octokit```
-Be sure to check permissions of the folder used. 
+
+Be sure to check permissions of the folder used. sudo is your friend!
 
