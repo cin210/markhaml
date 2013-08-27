@@ -1,0 +1,39 @@
+<h1>
+<a name="markhaml" class="anchor" href="#markhaml"><span class="octicon octicon-link"></span></a>markhaml</h1>
+
+<p>Convert  Markdown =&gt; HTML =&gt; HAML</p>
+
+<h1>
+<a name="warning" class="anchor" href="#warning"><span class="octicon octicon-link"></span></a>Warning</h1>
+
+<p>Running this script will attempt to convert (and subsequently overwrite) pre-existing *.html and *.haml files within an entire directory.</p>
+
+<p>ALL OF THEM.</p>
+
+<p>ALL THE .MD</p>
+
+<p>AND ALL THE .HTML</p>
+
+<p>SIMULTANEOUSLY</p>
+
+<p>IN ALL THE FOLDERS</p>
+
+<p>IN THAT DIRECTORY TREE</p>
+
+<p>The creator is not responsible for your directory getting fubar'd, use version control, hack responsibly</p>
+
+<h2>
+<a name="howto" class="anchor" href="#howto"><span class="octicon octicon-link"></span></a>Howto</h2>
+
+<p><code>git clone git@github.com:cin210/markhaml.git</code>
+<code>cd markhaml</code>
+<code>ruby markhaml /path/to/markdown/folder</code></p>
+
+<p>Insert your own PERSONAL APPLICATION TOKEN from github for more or less unlimited md =&gt; html conversions</p>
+
+<h2>
+<a name="dependencies" class="anchor" href="#dependencies"><span class="octicon octicon-link"></span></a>Dependencies</h2>
+
+<p><code>gem install html2haml</code>
+<code>gem install octokit</code>
+Be sure to check permissions of the folder used. </p>
